@@ -1,0 +1,17 @@
+Partlist exported from C:/Users/rajul/Documents/eagle/CMPE243_Interface_PCB/PCB_Breakout.sch at 11/4/2017 5:56:54 PM
+
+Qty Value  Device       Package        Parts                                                                           Description                                                     MF       MPN       OC_FARNELL OC_NEWARK
+1          F09HP        F09HP          PCAN                                                                            SUB-D                                                                              unknown    unknown  
+3          LED5MM       LED5MM         LED1, LED2, LED3                                                                LED                                                                                                    
+2          M9040P       M9040P         S1, S2                                                                          TOGGLE SWITCH                                                                                          
+12         MSTBV2       MSTBV2         X3, X4, X5, X6, X7, X8, X9, X10, X11, X12, X13, X14                             PHOENIX                                                                            unknown    unknown  
+3          MTA03-100    10X03MTA       MOTOR-ESC, MOTOR-SERVO, RPM/IR                                                  AMP connector                                                                                          
+1          MTA04-100    10X04MTA       GEO                                                                             AMP connector                                                                                          
+1          MTA05-100    10X05MTA       LIDAR                                                                           AMP connector                                                                                          
+6          MTA06-100    10X06MTA       CAN1, CAN2, CAN3, CAN4, CAN5, HC-05                                             AMP connector                                                                                          
+1          MTA08-100    10X08MTA       LEDDISPLAY                                                                      AMP connector                                                                                          
+18         R-US_0207/10 0207/10        R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18 RESISTOR, American symbol                                                                              
+3          SH22,5       SH22,5         F1, F2, F3                                                                      FUSE HOLDER grid 22,5 mm, OGN0031 8201, Schurter (Buerklin)     SCHURTER 0031.8201 1162740    96F8317  
+5   2534-  2534-        PAK100/2500-34 BT, GPS, MASTER, MOTOR, SENSOR                                                  3M (TM) Pak 100 4-Wall Header                                                      unknown    unknown  
+6   BC547  BC547        TO92           Q1, Q2, Q3, Q4, Q5, Q6                                                          NPN Transistor                                                                                         
+2   KUSBVX KUSBVX       KUSBVX         X1, X2                                                                          Vertical,Top Entry Universal Serial Bus Connector KUSBVX Series                                        

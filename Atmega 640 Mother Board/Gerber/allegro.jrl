@@ -1,0 +1,87 @@
+\t (00:00:27) allegro 16.5 S028 (v16-5-13BQ) i86
+\t (00:00:27)     Journal start - Mon Dec 31 03:43:58 2012
+\t (00:00:27)         Host=AJIT-PC User=Ajit Pid=5940 CPUs=4
+\t (00:00:27) 
+\t (00:00:29) Starting new design...
+\i (00:00:30) trapsize 955
+\i (00:00:30) trapsize 929
+\i (00:00:30) trapsize 959
+\i (00:00:31) trapsize 810
+\i (00:00:31) trapsize 1728
+\i (00:00:32) placementedit 
+\i (00:00:45) pick grid 13026.4 11540.7
+\t (00:00:45) last pick:  13000.0  11500.0
+\i (00:00:53) pick grid 2315.0 16447.2
+\t (00:00:53) last pick:  2300.0  16400.0
+\i (00:00:56) placementedit 
+\i (00:00:57) drag_start grid 7428.9 13130.1
+\i (00:00:57) drag_stop 14615.9 7394.3
+\i (00:01:08) rats all 
+\i (00:01:08) placementedit 
+\i (00:01:15) place manual 
+\i (00:01:17) setwindow form.plc_manual
+\i (00:01:17) FORM plc_manual tree  'Components by refdes' 
+\i (00:01:23) FORM plc_manual done  
+\i (00:01:23) setwindow pcb
+\i (00:01:23) placementedit 
+\i (00:01:24) place manual -h 
+\i (00:01:29) place manual -h 
+\i (00:01:33) prepopup 449.2 14270.3
+\i (00:01:34) pick grid 8741.9 14719.5
+\t (00:01:34) last pick:  8700.0  14700.0
+\i (00:01:40) add connect 
+\w (00:01:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:01:40) Pick first element.
+\i (00:02:19) specctra_in 
+\i (00:02:22) setwindow form.spif_in
+\i (00:02:22) FORM spif_in translate_to  
+\i (00:02:23) FORM spif_in browse_allegro_in1  
+\i (00:02:34) fillin "menu_cancel"
+\i (00:02:36) FORM spif_in close  
+\i (00:02:36) setwindow pcb
+\i (00:02:36) placementedit 
+\i (00:02:38) trapsize 1801
+\i (00:04:02) techfile in 
+\i (00:04:06) setwindow form.tech_in
+\i (00:04:06) FORM tech_in browse  
+\i (00:04:18) fillin "640 motherboard.drl"
+\i (00:04:20) FORM tech_in execute  
+\t (00:04:20) Starting Importing techfile...
+\e (00:04:26) ERROR(SPMHGE-268): techfile had errors, use Viewlog to review the log file.
+\t (00:04:27) Performing DRC...
+\t (00:04:27) Multithreaded DRC update (4 threads).
+\t (00:04:27) No DRC errors detected.
+\i (00:04:41) setwindow text
+\i (00:04:41) close 
+\i (00:04:45) setwindow form.tech_in
+\i (00:04:45) FORM tech_in cancel  
+\i (00:04:45) setwindow pcb
+\i (00:04:45) placementedit 
+\i (00:05:07) techfile in 
+\i (00:05:10) setwindow form.tech_in
+\i (00:05:10) FORM tech_in browse  
+\i (00:05:20) fillin "C:\Users\Ajit\Documents\eagle\Atmega 640 Mother Board\640 motherboard.brd"
+\i (00:05:23) FORM tech_in execute  
+\t (00:05:23) Starting Importing techfile...
+\e (00:05:24) ERROR(SPMHGE-268): techfile had errors, use Viewlog to review the log file.
+\t (00:05:25) Performing DRC...
+\t (00:05:25) Multithreaded DRC update (4 threads).
+\t (00:05:25) No DRC errors detected.
+\i (00:05:42) setwindow text
+\i (00:05:42) close 
+\i (00:06:03) setwindow pcb
+\i (00:06:03) ncdrill customization 
+\i (00:06:05) setwindow form.nc_drillcustomization
+\i (00:06:05) FORM nc_drillcustomization cancel  
+\i (00:06:22) setwindow form.tech_in
+\i (00:06:22) FORM tech_in drc NO 
+\i (00:06:23) FORM tech_in execute  
+\t (00:06:23) Starting Importing techfile...
+\e (00:06:24) ERROR(SPMHGE-268): techfile had errors, use Viewlog to review the log file.
+\i (00:06:41) FORM tech_in cancel  
+\i (00:06:41) setwindow pcb
+\i (00:06:41) placementedit 
+\i (00:06:42) exit 
+\e (00:06:42) Do you want to save the changes you made to unnamed.brd?
+\i (00:06:45) fillin no 
+\t (00:06:46)     Journal end - Mon Dec 31 03:50:16 2012

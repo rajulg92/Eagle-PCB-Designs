@@ -1,0 +1,59 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : unnamed                                       )
+(    Software Version : 16.5S028                                      )
+(    Date/Time        : Wed Dec 12 17:23:23 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_DELETE_FIRST_SEGMENT FALSE;
+RIPUP_RETAIN_BONDWIRE FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY 'C:/Users/Ajit/Documents/eagle/Atmega 640 Mother Board';
+BOARD_DIRECTORY '';
+OLD_BOARD_NAME 'unnamed';
+NEW_BOARD_NAME 'unnamed';
+
+CmdLine: netrev -$ -g -i C:/Users/Ajit/Documents/eagle/Atmega 640 Mother Board -y 1 C:/Users/Ajit/Documents/eagle/Atmega 640 Mother Board/Gerber/#Taaaaad05360.tmp
+
+------ Preparing to read pst files ------
+
+
+#1   ERROR(24) File not found
+     Packager files not found
+
+#2   ERROR(102) Run stopped because errors were detected
+
+netrev run on Dec 12 17:23:23 2012
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+  2 errors detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:21
+elapsed time  0:00:00
+

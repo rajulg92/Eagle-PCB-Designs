@@ -1,0 +1,18 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Technology File READ                                             )
+(                                                                     )
+(    Drawing          : unnamed.brd                                   )
+(    Software Version : 16.5S028                                      )
+(    Date/Time        : Mon Dec 31 03:49:54 2012                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+techfile name: C:/Users/Ajit/Documents/eagle/Atmega 640 Mother Board/640 motherboard.brd
+  layout name: C:/Users/Ajit/Documents/eagle/Atmega 640 Mother Board/Gerber/unnamed.brd
+
+
+**** ERROR: UPREV ****
+Cannot uprev this techfile version 0 on this OS. The earliest version supported is 12.
+

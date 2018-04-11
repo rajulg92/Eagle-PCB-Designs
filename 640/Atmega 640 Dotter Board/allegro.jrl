@@ -1,0 +1,107 @@
+\t (00:01:12) allegro 16.5 S028 (v16-5-13BQ) i86
+\t (00:01:12)     Journal start - Wed Dec 12 17:21:20 2012
+\t (00:01:12)         Host=AJIT-PC User=Ajit Pid=5360 CPUs=4
+\t (00:01:12) 
+\t (00:01:12) Starting new design...
+\i (00:01:12) trapsize 1728
+\i (00:01:12) trapsize 1728
+\i (00:01:12) generaledit 
+\i (00:01:16) open 
+\e (00:01:16) Do you want to save the changes you made to untitled1.brd?
+\i (00:01:18) fillin no 
+\i (00:01:20) fillin "untitled.brd"
+\t (00:01:20) Opening existing design...
+\e (00:01:20) ERROR(SPMHDB-238): The database is corrupted. It may have been copied from a different architecture using ASCII mode ... copy using binary mode.
+\e (00:01:20) ERROR(SPMHDB-238): The database is corrupted. It may have been copied from a different architecture using ASCII mode ... copy using binary mode.
+\i (00:01:26) fillin confirm
+\t (00:01:26) Starting new design...
+\i (00:01:26) trapsize 1728
+\i (00:01:31) fillin "C:\Users\Ajit\Documents\eagle\Atmega 640 Mother Board\640 motherboard.brd"
+\i (00:01:31) cd "C:\Users\Ajit\Documents\eagle\Atmega 640 Mother Board"
+\t (00:01:31) Opening existing design...
+\e (00:01:31) ERROR(SPMHDB-238): The database is corrupted. It may have been copied from a different architecture using ASCII mode ... copy using binary mode.
+\e (00:01:31) ERROR(SPMHDB-238): The database is corrupted. It may have been copied from a different architecture using ASCII mode ... copy using binary mode.
+\i (00:01:32) fillin confirm
+\t (00:01:32) Starting new design...
+\i (00:01:32) trapsize 1728
+\i (00:01:42) fillin "C:\Users\Ajit\Documents\eagle\Atmega 640 Mother Board\Gerber\640 motherboard.drl"
+\i (00:01:42) cd "C:\Users\Ajit\Documents\eagle\Atmega 640 Mother Board\Gerber"
+\t (00:01:42) Opening existing design...
+\e (00:01:42) ERROR(SPMHDB-178): File does not appear to be an Allegro database.
+\e (00:01:42) ERROR(SPMHDB-178): File does not appear to be an Allegro database.
+\i (00:01:44) fillin confirm
+\t (00:01:44) Starting new design...
+\i (00:01:44) trapsize 1728
+\i (00:01:46) fillin "menu_cancel"
+\i (00:01:46) generaledit 
+\i (00:02:05) pads in 
+\i (00:02:08) setwindow form.pads_in
+\i (00:02:08) FORM pads_in cancel  
+\i (00:02:08) setwindow pcb
+\i (00:02:08) generaledit 
+\i (00:02:14) netin 
+\i (00:02:18) setwindow form.niparams
+\i (00:02:18) FORM niparams browse  
+\i (00:02:25) fillin "C:/Users/Ajit/Documents/eagle/Atmega 640 Mother Board"
+\i (00:02:29) FORM niparams import  
+\i (00:02:32) fillin confirm
+\i (00:02:37) FORM niparams five_dot_x YES 
+\i (00:02:45) FORM niparams import  
+\t (00:02:45) Starting Cadence Logic Import...
+\e (00:02:49) ERROR(SPMHGE-268): netrev had errors, use Viewlog to review the log file.
+\i (00:03:02) setwindow text
+\i (00:03:02) close 
+\i (00:03:04) setwindow form.niparams
+\i (00:03:04) FORM niparams capture_netlist YES 
+\i (00:03:11) fillin no 
+\i (00:03:12) FORM niparams netrev_netlist YES 
+\i (00:03:14) FORM niparams import  
+\t (00:03:14) Starting Cadence Logic Import...
+\e (00:03:14) ERROR(SPMHGE-268): netrev had errors, use Viewlog to review the log file.
+\i (00:03:20) setwindow text
+\i (00:03:20) close 
+\i (00:03:21) setwindow form.niparams
+\i (00:03:21) FORM niparams cancel  
+\i (00:03:21) setwindow pcb
+\i (00:03:21) generaledit 
+\i (00:03:34) pick grid 10607.7 10849.6
+\t (00:03:34) last pick:  10600.0  10800.0
+\i (00:04:41) xhilite 
+\i (00:04:41) xname_flush 
+\i (00:04:41) done 
+\i (00:04:41) generaledit 
+\i (00:05:34) pick grid 19487.8 4595.5
+\t (00:05:34) last pick:  19500.0  4600.0
+\i (00:05:37) shape add 
+\i (00:05:38) pick grid 8741.9 12750.0
+\t (00:05:38) last pick:  8700.0  12800.0
+\i (00:05:38) pick grid 14581.3 8638.2
+\t (00:05:38) last pick:  14600.0  8600.0
+\i (00:05:40) pick grid 9985.8 4872.0
+\t (00:05:40) last pick:  10000.0  4900.0
+\i (00:05:41) pick grid 6668.7 7256.1
+\t (00:05:41) last pick:  6700.0  7300.0
+\i (00:05:43) pick grid 8845.5 12853.7
+\t (00:05:43) last pick:  8800.0  12900.0
+\e (00:05:43) ERROR(SPMHA1-387): Segment crosses the shape ... pick again.
+\i (00:05:45) pick grid 8741.9 12957.3
+\t (00:05:45) last pick:  8700.0  13000.0
+\i (00:05:46) pick grid 8776.4 12819.1
+\t (00:05:46) last pick:  8800.0  12800.0
+\e (00:05:46) ERROR(SPMHA1-387): Segment crosses the shape ... pick again.
+\i (00:05:47) Esc 
+\i (00:05:47) generaledit 
+\i (00:05:51) placementedit 
+\i (00:05:52) pick grid 9743.9 12542.7
+\t (00:05:52) last pick:  9700.0  12500.0
+\i (00:05:53) pick grid 13372.0 9778.5
+\t (00:05:53) last pick:  13400.0  9800.0
+\i (00:05:53) pick grid dbl 13372.0 9778.5
+\t (00:05:53) last pick:  13400.0  9800.0
+\i (00:05:53) prepopup 13372.0 9778.5
+\i (00:05:59) pick grid 20489.8 12508.1
+\t (00:05:59) last pick:  20500.0  12500.0
+\i (00:06:01) exit 
+\e (00:06:01) Do you want to save the changes you made to unnamed?
+\i (00:06:02) fillin no 
+\t (00:06:03)     Journal end - Wed Dec 12 17:26:11 2012
