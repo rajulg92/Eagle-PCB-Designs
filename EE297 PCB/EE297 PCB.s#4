@@ -15582,8 +15582,6 @@ Grid 2.54 mm&lt;p&gt;
 <part name="R30" library="rcl" deviceset="R-US_" device="0207/10"/>
 <part name="LED14" library="led" deviceset="LED" device="5MM"/>
 <part name="R31" library="rcl" deviceset="R-US_" device="0207/10"/>
-<part name="SUPPLY60" library="supply2" deviceset="GND" device=""/>
-<part name="SUPPLY61" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15777,8 +15775,6 @@ Grid 2.54 mm&lt;p&gt;
 <instance part="R30" gate="G$1" x="213.36" y="0" rot="R180"/>
 <instance part="LED14" gate="G$1" x="223.52" y="-10.16" rot="R90"/>
 <instance part="R31" gate="G$1" x="213.36" y="-10.16" rot="R180"/>
-<instance part="SUPPLY60" gate="GND" x="236.22" y="-12.7"/>
-<instance part="SUPPLY61" gate="GND" x="175.26" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -16126,16 +16122,6 @@ Grid 2.54 mm&lt;p&gt;
 <pinref part="SUPPLY59" gate="GND" pin="GND"/>
 <wire x1="121.92" y1="27.94" x2="127" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="127" y1="27.94" x2="127" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED6" gate="G$1" pin="C"/>
-<wire x1="228.6" y1="60.96" x2="236.22" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="60.96" x2="236.22" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="SUPPLY60" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="X24" gate="-2" pin="KL"/>
-<pinref part="SUPPLY61" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -16897,6 +16883,11 @@ Grid 2.54 mm&lt;p&gt;
 <segment>
 <pinref part="LED14" gate="G$1" pin="C"/>
 <wire x1="228.6" y1="-10.16" x2="236.22" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="X24" gate="-2" pin="KL"/>
+<wire x1="175.26" y1="48.26" x2="195.58" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="48.26" x2="195.58" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="-15.24" x2="236.22" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-15.24" x2="236.22" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$65" class="0">
@@ -16904,6 +16895,13 @@ Grid 2.54 mm&lt;p&gt;
 <pinref part="R31" gate="G$1" pin="1"/>
 <pinref part="LED14" gate="G$1" pin="A"/>
 <wire x1="218.44" y1="-10.16" x2="220.98" y2="-10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$56" class="0">
+<segment>
+<pinref part="LED6" gate="G$1" pin="C"/>
+<wire x1="228.6" y1="60.96" x2="236.22" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="60.96" x2="236.22" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

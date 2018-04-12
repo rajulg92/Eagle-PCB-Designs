@@ -15936,7 +15936,14 @@ Grid 2.54 mm&lt;p&gt;
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
-<wire x1="-73.66" y1="144.78" x2="-73.66" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="144.78" x2="-73.66" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="GND@1"/>
+<wire x1="-73.66" y1="142.24" x2="-73.66" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="149.86" x2="-63.5" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="149.86" x2="-63.5" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<wire x1="-63.5" y1="142.24" x2="-58.42" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="142.24" x2="-73.66" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>

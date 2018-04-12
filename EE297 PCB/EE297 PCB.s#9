@@ -15632,6 +15632,12 @@ Grid 2.54 mm&lt;p&gt;
 <part name="X18" library="con-phoenix-254" deviceset="MPT3" device=""/>
 <part name="X19" library="con-phoenix-254" deviceset="MPT3" device=""/>
 <part name="X20" library="con-phoenix-254" deviceset="MPT3" device=""/>
+<part name="LED6" library="led" deviceset="LED" device="5MM"/>
+<part name="R21" library="rcl" deviceset="R-US_" device="0207/10"/>
+<part name="LED7" library="led" deviceset="LED" device="5MM"/>
+<part name="R22" library="rcl" deviceset="R-US_" device="0207/10"/>
+<part name="SUPPLY37" library="supply2" deviceset="VCC" device=""/>
+<part name="SUPPLY38" library="supply2" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15792,6 +15798,12 @@ Grid 2.54 mm&lt;p&gt;
 <instance part="X20" gate="-1" x="2.54" y="60.96"/>
 <instance part="X20" gate="-2" x="2.54" y="55.88"/>
 <instance part="X20" gate="-3" x="2.54" y="50.8"/>
+<instance part="LED6" gate="G$1" x="-172.72" y="106.68"/>
+<instance part="R21" gate="G$1" x="-172.72" y="119.38" rot="R90"/>
+<instance part="LED7" gate="G$1" x="213.36" y="180.34"/>
+<instance part="R22" gate="G$1" x="213.36" y="193.04" rot="R90"/>
+<instance part="SUPPLY37" gate="G$1" x="213.36" y="203.2"/>
+<instance part="SUPPLY38" gate="G$1" x="-172.72" y="132.08"/>
 </instances>
 <busses>
 </busses>
@@ -15882,6 +15894,16 @@ Grid 2.54 mm&lt;p&gt;
 <pinref part="X20" gate="-1" pin="1"/>
 <pinref part="SUPPLY28" gate="G$1" pin="VCC"/>
 <wire x1="0" y1="60.96" x2="0" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="SUPPLY37" gate="G$1" pin="VCC"/>
+<wire x1="213.36" y1="200.66" x2="213.36" y2="198.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="SUPPLY38" gate="G$1" pin="VCC"/>
+<wire x1="-172.72" y1="129.54" x2="-172.72" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -16149,7 +16171,10 @@ Grid 2.54 mm&lt;p&gt;
 <segment>
 <pinref part="T1" gate="G$1" pin="C"/>
 <pinref part="K1" gate="1" pin="2"/>
-<wire x1="-157.48" y1="96.52" x2="-157.48" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="96.52" x2="-157.48" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="LED6" gate="G$1" pin="C"/>
+<wire x1="-157.48" y1="101.6" x2="-157.48" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-172.72" y1="101.6" x2="-157.48" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -16272,7 +16297,10 @@ Grid 2.54 mm&lt;p&gt;
 <segment>
 <pinref part="T5" gate="G$1" pin="C"/>
 <pinref part="K3" gate="1" pin="2"/>
-<wire x1="228.6" y1="172.72" x2="228.6" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="172.72" x2="228.6" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="LED7" gate="G$1" pin="C"/>
+<wire x1="228.6" y1="175.26" x2="228.6" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="175.26" x2="228.6" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -16684,6 +16712,20 @@ Grid 2.54 mm&lt;p&gt;
 <wire x1="-50.8" y1="35.56" x2="-50.8" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="(ADC4)PA4"/>
 <wire x1="-50.8" y1="165.1" x2="-17.78" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$56" class="0">
+<segment>
+<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="LED6" gate="G$1" pin="A"/>
+<wire x1="-172.72" y1="114.3" x2="-172.72" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$57" class="0">
+<segment>
+<pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="LED7" gate="G$1" pin="A"/>
+<wire x1="213.36" y1="187.96" x2="213.36" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

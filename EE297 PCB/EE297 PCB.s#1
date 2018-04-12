@@ -15709,7 +15709,7 @@ Grid 2.54 mm&lt;p&gt;
 <instance part="LED4" gate="G$1" x="60.96" y="190.5"/>
 <instance part="R19" gate="G$1" x="60.96" y="203.2" rot="R90"/>
 <instance part="LED5" gate="G$1" x="68.58" y="190.5"/>
-<instance part="R20" gate="G$1" x="68.58" y="203.2" rot="R90"/>
+<instance part="R20" gate="G$1" x="71.12" y="203.2" rot="R90"/>
 <instance part="K3" gate="2" x="243.84" y="185.42" rot="R90"/>
 <instance part="X7" gate="-1" x="269.24" y="190.5"/>
 <instance part="X7" gate="-2" x="269.24" y="185.42"/>
@@ -16550,8 +16550,9 @@ Grid 2.54 mm&lt;p&gt;
 <wire x1="99.06" y1="152.4" x2="88.9" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="208.28" x2="68.58" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="208.28" x2="88.9" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="208.28" x2="60.96" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="208.28" x2="71.12" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="208.28" x2="88.9" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="208.28" x2="88.9" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="208.28" x2="-190.5" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="-190.5" y1="208.28" x2="-190.5" y2="63.5" width="0.1524" layer="91"/>
@@ -16567,6 +16568,8 @@ Grid 2.54 mm&lt;p&gt;
 <wire x1="-121.92" y1="71.12" x2="-121.92" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="-121.92" y1="68.58" x2="-132.08" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-154.94" y1="71.12" x2="-121.92" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<junction x="60.96" y="208.28"/>
 </segment>
 </net>
 <net name="N$50" class="0">
@@ -16587,7 +16590,7 @@ Grid 2.54 mm&lt;p&gt;
 <segment>
 <pinref part="LED5" gate="G$1" pin="A"/>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="193.04" x2="68.58" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="193.04" x2="71.12" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$44" class="0">
